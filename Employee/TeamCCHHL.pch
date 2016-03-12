@@ -1,0 +1,28 @@
+//
+//  Employee.pch
+//  Employee
+//
+//  Created by Country Club on 31/10/15.
+//  Copyright © 2015 Country Club. All rights reserved.
+//
+
+
+#define Employee_pch
+
+
+#import <Availability.h>
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "AppDelegate.h"
+#import "Constants.h"
+#import "webServiceHelper.h"
+#import "UIColor+Hexadecimal.h"
+#import "Utils.h"
+#import "UITextField+CustomInputViews.h"
+#import "CountryClubModel.h"
+#import "MainViewController.h"
+#import "SWRevealViewController.h"
+#endif
+

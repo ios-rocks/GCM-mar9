@@ -1,0 +1,1216 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		826E51521C5708DB00D98136 /* MemberDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 826E51511C5708DB00D98136 /* MemberDetailsViewController.m */; };
+		89C4483BBCC2F8DE2C6C9C61 /* libPods-TeamCCHHL.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A3501BCC1546993CA3D1758E /* libPods-TeamCCHHL.a */; };
+		9D03A3311C3BA42A00BBC224 /* SalesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D03A3301C3BA42A00BBC224 /* SalesViewController.m */; };
+		9D062E591C199907000F3E11 /* ImagesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D062E581C199907000F3E11 /* ImagesViewController.m */; };
+		9D1C3A631C6869C600E0EBC6 /* HolidaysViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D1C3A621C6869C600E0EBC6 /* HolidaysViewController.m */; };
+		9D1C3A661C686EF300E0EBC6 /* ResortsListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D1C3A651C686EF300E0EBC6 /* ResortsListViewController.m */; };
+		9D1C3A681C686F0F00E0EBC6 /* ResortsListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D1C3A671C686F0F00E0EBC6 /* ResortsListViewController.xib */; };
+		9D1C3A701C686FB500E0EBC6 /* BookingHolidayViewcontroller.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D1C3A6F1C686FB500E0EBC6 /* BookingHolidayViewcontroller.m */; };
+		9D1C3A721C686FCC00E0EBC6 /* BookingHolidayViewcontroller.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D1C3A711C686FCC00E0EBC6 /* BookingHolidayViewcontroller.xib */; };
+		9D3EE1F51BE480D100853671 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D3EE1F41BE480D100853671 /* main.m */; };
+		9D3EE1F81BE480D100853671 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D3EE1F71BE480D100853671 /* AppDelegate.m */; };
+		9D3EE1FB1BE480D100853671 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D3EE1FA1BE480D100853671 /* ViewController.m */; };
+		9D3EE1FE1BE480D100853671 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D3EE1FC1BE480D100853671 /* Main.storyboard */; };
+		9D3EE2001BE480D100853671 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D3EE1FF1BE480D100853671 /* Assets.xcassets */; };
+		9D3EE2031BE480D100853671 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D3EE2011BE480D100853671 /* LaunchScreen.storyboard */; };
+		9D3EF1571C3E945500DB9D2A /* HistoryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D3EF1561C3E945500DB9D2A /* HistoryTableViewCell.m */; };
+		9D420E5B1C0707E60094446C /* SKSTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D420E541C0707E60094446C /* SKSTableView.m */; };
+		9D420E5C1C0707E60094446C /* SKSTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D420E561C0707E60094446C /* SKSTableViewCell.m */; };
+		9D420E5D1C0707E60094446C /* SKSTableViewCellIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D420E581C0707E60094446C /* SKSTableViewCellIndicator.m */; };
+		9D42800B1BE72DBC00CE7B0A /* webServiceHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D42800A1BE72DBC00CE7B0A /* webServiceHelper.m */; };
+		9D4280111BE75A9300CE7B0A /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D4280101BE75A9300CE7B0A /* MBProgressHUD.m */; };
+		9D4280141BE7644E00CE7B0A /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D4280131BE7644E00CE7B0A /* Utils.m */; };
+		9D4280171BE77A8900CE7B0A /* UIColor+Hexadecimal.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D4280161BE77A8900CE7B0A /* UIColor+Hexadecimal.m */; };
+		9D4A3E7C1BEB3A370075E7F9 /* AttendanceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D4A3E7B1BEB3A370075E7F9 /* AttendanceViewController.m */; };
+		9D565DEF1C16D452000CD7D4 /* CCHHLiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D565DEE1C16D452000CD7D4 /* CCHHLiveViewController.m */; };
+		9D5D869F1C00783F00C6EC94 /* SidebarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D5D869E1C00783F00C6EC94 /* SidebarViewController.m */; };
+		9D5D86A21C00784C00C6EC94 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D5D86A11C00784C00C6EC94 /* MainViewController.m */; };
+		9D5D86A51C00785900C6EC94 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D5D86A41C00785900C6EC94 /* SWRevealViewController.m */; };
+		9D5E82D31C22CB21003578FB /* LocatesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D5E82D21C22CB21003578FB /* LocatesViewController.m */; };
+		9D5E82D61C22CB5C003578FB /* LocationsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D5E82D51C22CB5C003578FB /* LocationsView.m */; };
+		9D5E82DB1C22CBBE003578FB /* LocationsDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D5E82DA1C22CBBE003578FB /* LocationsDetails.m */; };
+		9D5E82E91C22CE40003578FB /* DisplayLocationImagesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D5E82E81C22CE40003578FB /* DisplayLocationImagesView.xib */; };
+		9D5E82EC1C22CE4E003578FB /* DisplayLocationImagesView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D5E82EB1C22CE4E003578FB /* DisplayLocationImagesView.m */; };
+		9D5E83491C22E5CB003578FB /* 100.829_Philippines_MicrotelBatangas_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9D5E82FC1C22E5CB003578FB /* 100.829_Philippines_MicrotelBatangas_1.jpg */; };
+		9D5E834A1C22E5CB003578FB /* 101.719_Philippines_MicrotelBaguio_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9D5E82FD1C22E5CB003578FB /* 101.719_Philippines_MicrotelBaguio_2.jpg */; };
+		9D5E834B1C22E5CB003578FB /* 102.755_QuwainFlamingoBeachResort_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9D5E82FE1C22E5CB003578FB /* 102.755_QuwainFlamingoBeachResort_3.jpg */; };
+		9D5E834C1C22E5CB003578FB /* 103.305_cochichos-resort.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9D5E82FF1C22E5CB003578FB /* 103.305_cochichos-resort.jpg */; };
+		9D5E834D1C22E5CB003578FB /* 104.969_FortuneRoyalHotel_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9D5E83001C22E5CB003578FB /* 104.969_FortuneRoyalHotel_2.jpg */; };
+		9D5E834E1C22E5CB003578FB /* 105.353_cochichos-resort.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9D5E83011C22E5CB003578FB /* 105.353_cochichos-resort.jpg */; };
+		9D5E834F1C22E5CB003578FB /* 106.468_Udaipur_AravaliSilenceLakend_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9D5E83021C22E5CB003578FB /* 106.468_Udaipur_AravaliSilenceLakend_3.jpg */; };
+		9D5E83501C22E5CB003578FB /* 107.236_Mathura_HotelGoverdhanPalace_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9D5E83031C22E5CB003578FB /* 107.236_Mathura_HotelGoverdhanPalace_1.jpg */; };
+		9D5E83511C22E5CB003578FB /* 108.576_Munnar_TheEdgeResorts_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9D5E83041C22E5CB003578FB /* 108.576_Munnar_TheEdgeResorts_2.jpg */; };
+		9D5E83521C22E5CB003578FB /* 109.972_Mussoorie_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9D5E83051C22E5CB003578FB /* 109.972_Mussoorie_1.jpg */; };
+		9D5E83531C22E5CB003578FB /* 11.883_Jaderesort_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9D5E83061C22E5CB003578FB /* 11.883_Jaderesort_1.jpg */; };
+		9D5E83541C22E5CB003578FB /* 110.777_MysoreMangoSuites_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9D5E83071C22E5CB003578FB /* 110.777_MysoreMangoSuites_3.jpg */; };
+		9D5E83551C22E5CB003578FB /* 111.961_Dharamshala_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9D5E83081C22E5CB003578FB /* 111.961_Dharamshala_3.jpg */; };
+		9D5E83561C22E5CB003578FB /* 112.517_cochichos-resort.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9D5E83091C22E5CB003578FB /* 112.517_cochichos-resort.jpg */; };
+		9D5E83571C22E5CB003578FB /* 113.908_cochichos-resort.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9D5E830A1C22E5CB003578FB /* 113.908_cochichos-resort.jpg */; };
+		9D5E83581C22E5CB003578FB /* 114.834_cochichos-resort.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9D5E830B1C22E5CB003578FB /* 114.834_cochichos-resort.jpg */; };
+		9D5E83591C22E5CB003578FB /* 115.827_JaipurKKRoyal_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9D5E830C1C22E5CB003578FB /* 115.827_JaipurKKRoyal_3.jpg */; };
+		9D5E835A1C22E5CB003578FB /* 116.969_JimCorbett_IrisSpa&Resort_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9D5E830D1C22E5CB003578FB /* 116.969_JimCorbett_IrisSpa&Resort_3.jpg */; };
+		9D5E835B1C22E5CB003578FB /* 117.825_cochichos-resort.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9D5E830E1C22E5CB003578FB /* 117.825_cochichos-resort.jpg */; };
+		9D5E835C1C22E5CB003578FB /* 118.991_Manali_PiccadilyHolidayResort_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9D5E830F1C22E5CB003578FB /* 118.991_Manali_PiccadilyHolidayResort_2.jpg */; };
+		9D5E835D1C22E5CB003578FB /* 119.955_Kasauli_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9D5E83101C22E5CB003578FB /* 119.955_Kasauli_2.jpg */; };
+		9D5E835E1C22E5CB003578FB /* 17.612_Faridabad_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9D5E83111C22E5CB003578FB /* 17.612_Faridabad_2.jpg */; };
+		9D5E835F1C22E5CB003578FB /* 18.727_NoidaCK27_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9D5E83121C22E5CB003578FB /* 18.727_NoidaCK27_3.jpg */; };
+		9D5E83601C22E5CB003578FB /* 19.909_hotel-thu2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9D5E83131C22E5CB003578FB /* 19.909_hotel-thu2.jpg */; };
+		9D5E83611C22E5CB003578FB /* 2.881_AhmedabadFitness_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9D5E83141C22E5CB003578FB /* 2.881_AhmedabadFitness_1.jpg */; };
+		9D5E83621C22E5CB003578FB /* 20.943_Goa_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9D5E83151C22E5CB003578FB /* 20.943_Goa_3.jpg */; };
+		9D5E83631C22E5CB003578FB /* 22.816_Assagao_Goa_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9D5E83161C22E5CB003578FB /* 22.816_Assagao_Goa_1.jpg */; };
+		9D5E83641C22E5CB003578FB /* 23.405_Begumpet_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9D5E83171C22E5CB003578FB /* 23.405_Begumpet_3.jpg */; };
+		9D5E83651C22E5CB003578FB /* 25.788_Medchal_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9D5E83181C22E5CB003578FB /* 25.788_Medchal_2.jpg */; };
+		9D5E83661C22E5CB003578FB /* 27.597_AmruthaCastle_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9D5E83191C22E5CB003578FB /* 27.597_AmruthaCastle_2.jpg */; };
+		9D5E83671C22E5CB003578FB /* 3.83_Bannerghatta_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9D5E831A1C22E5CB003578FB /* 3.83_Bannerghatta_3.jpg */; };
+		9D5E83681C22E5CB003578FB /* 31.893_Kodaikanal_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9D5E831B1C22E5CB003578FB /* 31.893_Kodaikanal_1.jpg */; };
+		9D5E83691C22E5CB003578FB /* 34.743_KolkataFitness_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9D5E831C1C22E5CB003578FB /* 34.743_KolkataFitness_1.jpg */; };
+		9D5E836A1C22E5CB003578FB /* 35.929_Lucknow_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9D5E831D1C22E5CB003578FB /* 35.929_Lucknow_2.jpg */; };
+		9D5E836B1C22E5CB003578FB /* 37.7_Mysore_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9D5E831E1C22E5CB003578FB /* 37.7_Mysore_2.jpg */; };
+		9D5E836C1C22E5CB003578FB /* 38.94_Andheri_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9D5E831F1C22E5CB003578FB /* 38.94_Andheri_3.jpg */; };
+		9D5E836D1C22E5CB003578FB /* 39.711_Kandivali_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9D5E83201C22E5CB003578FB /* 39.711_Kandivali_1.jpg */; };
+		9D5E836E1C22E5CB003578FB /* 4.797_Sarjapur_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9D5E83211C22E5CB003578FB /* 4.797_Sarjapur_1.jpg */; };
+		9D5E836F1C22E5CB003578FB /* 41.930_Kolad_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9D5E83221C22E5CB003578FB /* 41.930_Kolad_2.jpg */; };
+		9D5E83701C22E5CB003578FB /* 44.46_Shimla_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9D5E83231C22E5CB003578FB /* 44.46_Shimla_1.jpg */; };
+		9D5E83711C22E5CB003578FB /* 46.171_Surat_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9D5E83241C22E5CB003578FB /* 46.171_Surat_2.jpg */; };
+		9D5E83721C22E5CB003578FB /* 48.671_JuhuFitness_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9D5E83251C22E5CB003578FB /* 48.671_JuhuFitness_3.jpg */; };
+		9D5E83731C22E5CB003578FB /* 49.70_Thane_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9D5E83261C22E5CB003578FB /* 49.70_Thane_3.jpg */; };
+		9D5E83741C22E5CB003578FB /* 5.729_Yelahanka_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9D5E83271C22E5CB003578FB /* 5.729_Yelahanka_3.jpg */; };
+		9D5E83751C22E5CB003578FB /* 50.769_NagpurFitness_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9D5E83281C22E5CB003578FB /* 50.769_NagpurFitness_1.jpg */; };
+		9D5E83761C22E5CB003578FB /* 51.723_JaipurFitness_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9D5E83291C22E5CB003578FB /* 51.723_JaipurFitness_2.jpg */; };
+		9D5E83771C22E5CB003578FB /* 52.946_DelhiFitness_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9D5E832A1C22E5CB003578FB /* 52.946_DelhiFitness_1.jpg */; };
+		9D5E83781C22E5CB003578FB /* 53.964_Kodaikanal_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9D5E832B1C22E5CB003578FB /* 53.964_Kodaikanal_1.jpg */; };
+		9D5E83791C22E5CB003578FB /* 54.916_monako2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9D5E832C1C22E5CB003578FB /* 54.916_monako2.jpg */; };
+		9D5E837A1C22E5CB003578FB /* 55.792_Bandipur_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9D5E832D1C22E5CB003578FB /* 55.792_Bandipur_1.jpg */; };
+		9D5E837B1C22E5CB003578FB /* 56.501_AhmedabadClub_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9D5E832E1C22E5CB003578FB /* 56.501_AhmedabadClub_2.jpg */; };
+		9D5E837C1C22E5CB003578FB /* 57.926_KolkataKasba_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9D5E832F1C22E5CB003578FB /* 57.926_KolkataKasba_2.jpg */; };
+		9D5E837D1C22E5CB003578FB /* 58.863_ChandigarhFitness_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9D5E83301C22E5CB003578FB /* 58.863_ChandigarhFitness_2.jpg */; };
+		9D5E837E1C22E5CB003578FB /* 59.835_Begumpet_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9D5E83311C22E5CB003578FB /* 59.835_Begumpet_2.jpg */; };
+		9D5E837F1C22E5CB003578FB /* 6.55_MysoreRoad_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9D5E83321C22E5CB003578FB /* 6.55_MysoreRoad_2.jpg */; };
+		9D5E83801C22E5CB003578FB /* 61.788_GhatkoparFitness_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9D5E83331C22E5CB003578FB /* 61.788_GhatkoparFitness_1.jpg */; };
+		9D5E83811C22E5CB003578FB /* 62.742_PuneFitness_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9D5E83341C22E5CB003578FB /* 62.742_PuneFitness_1.jpg */; };
+		9D5E83821C22E5CB003578FB /* 63.675_Kurla_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9D5E83351C22E5CB003578FB /* 63.675_Kurla_1.jpg */; };
+		9D5E83831C22E5CB003578FB /* 65.896_Mahabaleshwar_HotelGourish_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9D5E83361C22E5CB003578FB /* 65.896_Mahabaleshwar_HotelGourish_3.jpg */; };
+		9D5E83841C22E5CB003578FB /* 68.814_BhandupFitness_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9D5E83371C22E5CB003578FB /* 68.814_BhandupFitness_3.jpg */; };
+		9D5E83851C22E5CB003578FB /* 69.871_BangaloreFitness_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9D5E83381C22E5CB003578FB /* 69.871_BangaloreFitness_2.jpg */; };
+		9D5E83861C22E5CB003578FB /* 70.62_VizagFitness_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9D5E83391C22E5CB003578FB /* 70.62_VizagFitness_3.jpg */; };
+		9D5E83871C22E5CB003578FB /* 71.846_ChennaiFitness_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9D5E833A1C22E5CB003578FB /* 71.846_ChennaiFitness_3.jpg */; };
+		9D5E83881C22E5CB003578FB /* 72.855_Dubai_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9D5E833B1C22E5CB003578FB /* 72.855_Dubai_1.jpg */; };
+		9D5E83891C22E5CB003578FB /* 73.775_AbudhabiFitness_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9D5E833C1C22E5CB003578FB /* 73.775_AbudhabiFitness_1.jpg */; };
+		9D5E838A1C22E5CB003578FB /* 75.887_IndoreFitness_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9D5E833D1C22E5CB003578FB /* 75.887_IndoreFitness_2.jpg */; };
+		9D5E838B1C22E5CB003578FB /* 8.791_Lakeside_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9D5E833E1C22E5CB003578FB /* 8.791_Lakeside_3.jpg */; };
+		9D5E838C1C22E5CB003578FB /* 91.694_cochichos-resort.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9D5E833F1C22E5CB003578FB /* 91.694_cochichos-resort.jpg */; };
+		9D5E838D1C22E5CB003578FB /* 92.159_cochichos-resort.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9D5E83401C22E5CB003578FB /* 92.159_cochichos-resort.jpg */; };
+		9D5E838E1C22E5CB003578FB /* 93.791_Philippines_MicrotelTarlac_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9D5E83411C22E5CB003578FB /* 93.791_Philippines_MicrotelTarlac_1.jpg */; };
+		9D5E838F1C22E5CB003578FB /* 94.297_cochichos-resort.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9D5E83421C22E5CB003578FB /* 94.297_cochichos-resort.jpg */; };
+		9D5E83901C22E5CB003578FB /* 95.941_Philippines_MicrotelMallofAsia_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9D5E83431C22E5CB003578FB /* 95.941_Philippines_MicrotelMallofAsia_1.jpg */; };
+		9D5E83911C22E5CB003578FB /* 96.495_Philippines_MicrotelDavao_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9D5E83441C22E5CB003578FB /* 96.495_Philippines_MicrotelDavao_1.jpg */; };
+		9D5E83921C22E5CB003578FB /* 97.886_Philippines_MicrotelCavite_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9D5E83451C22E5CB003578FB /* 97.886_Philippines_MicrotelCavite_2.jpg */; };
+		9D5E83931C22E5CB003578FB /* 98.451_Philippines_MicrotelCabanatuan_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9D5E83461C22E5CB003578FB /* 98.451_Philippines_MicrotelCabanatuan_2.jpg */; };
+		9D5E83941C22E5CB003578FB /* 99.983_cochichos-resort.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9D5E83471C22E5CB003578FB /* 99.983_cochichos-resort.jpg */; };
+		9D5E83951C22E5CB003578FB /* Thumbs.db in Resources */ = {isa = PBXBuildFile; fileRef = 9D5E83481C22E5CB003578FB /* Thumbs.db */; };
+		9D6156CB1C3D109B00C19202 /* NewMemberViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D6156CA1C3D109B00C19202 /* NewMemberViewController.m */; };
+		9D6156CE1C3D1B0000C19202 /* HistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D6156CD1C3D1B0000C19202 /* HistoryViewController.m */; };
+		9D6156D11C3D2A5500C19202 /* AddMemberView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D6156D01C3D2A5500C19202 /* AddMemberView.m */; };
+		9D67D8A21C0C7CC40090DFB9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D67D8A11C0C7CC40090DFB9 /* UIKit.framework */; };
+		9D68A8811C27D01D00BC142C /* UITextField+CustomInputViews.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D68A8801C27D01D00BC142C /* UITextField+CustomInputViews.m */; };
+		9D813B791C23E15D002E354C /* LocationsDetails.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D813B781C23E15D002E354C /* LocationsDetails.xib */; };
+		9D890B131C660B22008FD187 /* HolidaysLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D890B121C660B22008FD187 /* HolidaysLoginViewController.m */; };
+		9D890B161C661631008FD187 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D890B151C661631008FD187 /* SettingsViewController.m */; };
+		9D958EF41C1EBAE7000246AD /* EventsWithImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D958EF11C1EBAE7000246AD /* EventsWithImageViewController.m */; };
+		9D958EF51C1EBAE7000246AD /* EventsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D958EF31C1EBAE7000246AD /* EventsViewController.m */; };
+		9D958EF81C1EBB72000246AD /* EventDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D958EF71C1EBB72000246AD /* EventDetails.m */; };
+		9D958EFA1C1EBB9B000246AD /* EventDetails.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D958EF91C1EBB9B000246AD /* EventDetails.xib */; };
+		9D958EFD1C1EBBEE000246AD /* EventsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D958EFC1C1EBBEE000246AD /* EventsCell.m */; };
+		9D958EFF1C1EBC5D000246AD /* Event.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D958EFE1C1EBC5D000246AD /* Event.xib */; };
+		9D958F021C1EBD02000246AD /* EventsByCity.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D958F011C1EBD02000246AD /* EventsByCity.m */; };
+		9D958F041C1EBD53000246AD /* EventsByCity.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D958F031C1EBD53000246AD /* EventsByCity.xib */; };
+		9D958F071C1EBE5F000246AD /* SelectedEventsDedtails.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D958F061C1EBE5F000246AD /* SelectedEventsDedtails.m */; };
+		9D958F091C1EBE80000246AD /* SelectedEventsDedtails.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D958F081C1EBE80000246AD /* SelectedEventsDedtails.xib */; };
+		9D958F0C1C1EBF00000246AD /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D958F0B1C1EBF00000246AD /* UIImageView+WebCache.m */; };
+		9D958F101C1EBFBC000246AD /* CountryClubModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D958F0E1C1EBFBC000246AD /* CountryClubModel.m */; };
+		9D958F131C1EC5BA000246AD /* SDWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D958F121C1EC5BA000246AD /* SDWebImageManager.m */; };
+		9D958F161C1EC624000246AD /* SelectLocationViewcontroller.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D958F151C1EC624000246AD /* SelectLocationViewcontroller.m */; };
+		9D958F181C1EC65C000246AD /* SelectLocationViewcontroller.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D958F171C1EC65C000246AD /* SelectLocationViewcontroller.xib */; };
+		9D958F1B1C1EC6F3000246AD /* SDWebImageCompat.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D958F1A1C1EC6F3000246AD /* SDWebImageCompat.m */; };
+		9D958F1F1C1EC76D000246AD /* SDWebImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D958F1E1C1EC76D000246AD /* SDWebImageDownloader.m */; };
+		9D958F221C1EC78D000246AD /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D958F211C1EC78D000246AD /* SDImageCache.m */; };
+		9D958F251C1EC7C1000246AD /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D958F241C1EC7C1000246AD /* UIView+WebCacheOperation.m */; };
+		9D958F281C1EC7E8000246AD /* SDWebImageDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D958F271C1EC7E8000246AD /* SDWebImageDecoder.m */; };
+		9D958F2B1C1EC803000246AD /* UIImage+MultiFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D958F2A1C1EC803000246AD /* UIImage+MultiFormat.m */; };
+		9D958F2E1C1EC829000246AD /* UIImage+GIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D958F2D1C1EC829000246AD /* UIImage+GIF.m */; };
+		9D958F311C1EC846000246AD /* NSData+ImageContentType.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D958F301C1EC846000246AD /* NSData+ImageContentType.m */; };
+		9D958F341C1EC963000246AD /* SDWebImageDownloaderOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D958F331C1EC963000246AD /* SDWebImageDownloaderOperation.m */; };
+		9D958F371C1EC9BD000246AD /* CustomCellForProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D958F361C1EC9BD000246AD /* CustomCellForProfile.m */; };
+		9D958F391C1EC9F0000246AD /* CustomCellForProfile.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D958F381C1EC9F0000246AD /* CustomCellForProfile.xib */; };
+		9DD59E5A1C3C002100C7E950 /* SalesLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DD59E591C3C002100C7E950 /* SalesLoginViewController.m */; };
+		9DF26CC81BE9F6B000E1BD03 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DF26CC71BE9F6B000E1BD03 /* QuartzCore.framework */; };
+		9DF53A561BE4EEB8009F29B6 /* customCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DF53A551BE4EEB8009F29B6 /* customCell.m */; };
+		9DF9959B1BF0A8D300B8E72F /* PaySlipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DF9959A1BF0A8D300B8E72F /* PaySlipViewController.m */; };
+		9DF9D4BD1BE8AEE8002827FC /* UINavigationBar+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DF9D4BC1BE8AEE8002827FC /* UINavigationBar+Addition.m */; };
+		9DF9D4C21BE8B6AF002827FC /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DF9D4C11BE8B6AF002827FC /* ProfileViewController.m */; };
+		9DFB4BB01BF1C6CB00E0E59F /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DFB4BAF1BF1C6CB00E0E59F /* Reachability.m */; };
+		9DFD1FA11C8ED134007A65B2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9DFD1FA01C8ED134007A65B2 /* GoogleService-Info.plist */; };
+		9DFDB47F1C182BFE0077870C /* CustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DFDB47D1C182BFE0077870C /* CustomTableViewCell.m */; };
+		9DFDB4851C182D6A0077870C /* FTWCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DFDB4821C182D6A0077870C /* FTWCache.m */; };
+		9DFDB4861C182D6A0077870C /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DFDB4841C182D6A0077870C /* NSString+MD5.m */; };
+		9DFDB4881C18320A0077870C /* CustomTableview_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DFDB4871C18320A0077870C /* CustomTableview_iPhone.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0B77BE98F5F60BEFB769F489 /* Pods-TeamCCHHL.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeamCCHHL.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TeamCCHHL/Pods-TeamCCHHL.debug.xcconfig"; sourceTree = "<group>"; };
+		826E51501C5708DB00D98136 /* MemberDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemberDetailsViewController.h; sourceTree = "<group>"; };
+		826E51511C5708DB00D98136 /* MemberDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = MemberDetailsViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		9D03A32F1C3BA42A00BBC224 /* SalesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SalesViewController.h; sourceTree = "<group>"; };
+		9D03A3301C3BA42A00BBC224 /* SalesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = SalesViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		9D062E571C199907000F3E11 /* ImagesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImagesViewController.h; sourceTree = "<group>"; };
+		9D062E581C199907000F3E11 /* ImagesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = ImagesViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		9D11E1E31BF7514F00F10A0E /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		9D1C3A611C6869C600E0EBC6 /* HolidaysViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HolidaysViewController.h; sourceTree = "<group>"; };
+		9D1C3A621C6869C600E0EBC6 /* HolidaysViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = HolidaysViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		9D1C3A641C686EF300E0EBC6 /* ResortsListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResortsListViewController.h; sourceTree = "<group>"; };
+		9D1C3A651C686EF300E0EBC6 /* ResortsListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResortsListViewController.m; sourceTree = "<group>"; };
+		9D1C3A671C686F0F00E0EBC6 /* ResortsListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ResortsListViewController.xib; sourceTree = "<group>"; };
+		9D1C3A6E1C686FB500E0EBC6 /* BookingHolidayViewcontroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookingHolidayViewcontroller.h; sourceTree = "<group>"; };
+		9D1C3A6F1C686FB500E0EBC6 /* BookingHolidayViewcontroller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = BookingHolidayViewcontroller.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		9D1C3A711C686FCC00E0EBC6 /* BookingHolidayViewcontroller.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BookingHolidayViewcontroller.xib; sourceTree = "<group>"; };
+		9D3EE1F01BE480D100853671 /* TeamCCHHL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TeamCCHHL.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D3EE1F41BE480D100853671 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9D3EE1F61BE480D100853671 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9D3EE1F71BE480D100853671 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9D3EE1F91BE480D100853671 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9D3EE1FA1BE480D100853671 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = ViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		9D3EE1FD1BE480D100853671 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9D3EE1FF1BE480D100853671 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9D3EE2021BE480D100853671 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9D3EE2041BE480D100853671 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D3EE20D1BE480D100853671 /* EmployeeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmployeeTests.m; sourceTree = "<group>"; };
+		9D3EE20F1BE480D100853671 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D3EE2181BE480D100853671 /* EmployeeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmployeeUITests.m; sourceTree = "<group>"; };
+		9D3EE21A1BE480D100853671 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D3EF1551C3E945500DB9D2A /* HistoryTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HistoryTableViewCell.h; path = Employee/HistoryTableViewCell.h; sourceTree = "<group>"; };
+		9D3EF1561C3E945500DB9D2A /* HistoryTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HistoryTableViewCell.m; path = Employee/HistoryTableViewCell.m; sourceTree = "<group>"; };
+		9D420E531C0707E60094446C /* SKSTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKSTableView.h; sourceTree = "<group>"; };
+		9D420E541C0707E60094446C /* SKSTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKSTableView.m; sourceTree = "<group>"; };
+		9D420E551C0707E60094446C /* SKSTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKSTableViewCell.h; sourceTree = "<group>"; };
+		9D420E561C0707E60094446C /* SKSTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKSTableViewCell.m; sourceTree = "<group>"; };
+		9D420E571C0707E60094446C /* SKSTableViewCellIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKSTableViewCellIndicator.h; sourceTree = "<group>"; };
+		9D420E581C0707E60094446C /* SKSTableViewCellIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKSTableViewCellIndicator.m; sourceTree = "<group>"; };
+		9D4280091BE72DBC00CE7B0A /* webServiceHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = webServiceHelper.h; sourceTree = "<group>"; };
+		9D42800A1BE72DBC00CE7B0A /* webServiceHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = webServiceHelper.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		9D42800F1BE75A9300CE7B0A /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		9D4280101BE75A9300CE7B0A /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		9D4280121BE7644E00CE7B0A /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		9D4280131BE7644E00CE7B0A /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = Utils.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		9D4280151BE77A8900CE7B0A /* UIColor+Hexadecimal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hexadecimal.h"; sourceTree = "<group>"; };
+		9D4280161BE77A8900CE7B0A /* UIColor+Hexadecimal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hexadecimal.m"; sourceTree = "<group>"; };
+		9D4A3E7A1BEB3A370075E7F9 /* AttendanceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AttendanceViewController.h; sourceTree = "<group>"; };
+		9D4A3E7B1BEB3A370075E7F9 /* AttendanceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = AttendanceViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		9D565DED1C16D452000CD7D4 /* CCHHLiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCHHLiveViewController.h; sourceTree = "<group>"; };
+		9D565DEE1C16D452000CD7D4 /* CCHHLiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = CCHHLiveViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		9D5D869D1C00783F00C6EC94 /* SidebarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SidebarViewController.h; sourceTree = "<group>"; };
+		9D5D869E1C00783F00C6EC94 /* SidebarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SidebarViewController.m; sourceTree = "<group>"; };
+		9D5D86A01C00784C00C6EC94 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		9D5D86A11C00784C00C6EC94 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		9D5D86A31C00785900C6EC94 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		9D5D86A41C00785900C6EC94 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = SWRevealViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		9D5E82D11C22CB21003578FB /* LocatesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocatesViewController.h; sourceTree = "<group>"; };
+		9D5E82D21C22CB21003578FB /* LocatesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = LocatesViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		9D5E82D41C22CB5C003578FB /* LocationsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationsView.h; sourceTree = "<group>"; };
+		9D5E82D51C22CB5C003578FB /* LocationsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = LocationsView.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		9D5E82D91C22CBBE003578FB /* LocationsDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationsDetails.h; sourceTree = "<group>"; };
+		9D5E82DA1C22CBBE003578FB /* LocationsDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = LocationsDetails.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		9D5E82E81C22CE40003578FB /* DisplayLocationImagesView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DisplayLocationImagesView.xib; sourceTree = "<group>"; };
+		9D5E82EA1C22CE4E003578FB /* DisplayLocationImagesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisplayLocationImagesView.h; sourceTree = "<group>"; };
+		9D5E82EB1C22CE4E003578FB /* DisplayLocationImagesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisplayLocationImagesView.m; sourceTree = "<group>"; };
+		9D5E82FC1C22E5CB003578FB /* 100.829_Philippines_MicrotelBatangas_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 100.829_Philippines_MicrotelBatangas_1.jpg; sourceTree = "<group>"; };
+		9D5E82FD1C22E5CB003578FB /* 101.719_Philippines_MicrotelBaguio_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 101.719_Philippines_MicrotelBaguio_2.jpg; sourceTree = "<group>"; };
+		9D5E82FE1C22E5CB003578FB /* 102.755_QuwainFlamingoBeachResort_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 102.755_QuwainFlamingoBeachResort_3.jpg; sourceTree = "<group>"; };
+		9D5E82FF1C22E5CB003578FB /* 103.305_cochichos-resort.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "103.305_cochichos-resort.jpg"; sourceTree = "<group>"; };
+		9D5E83001C22E5CB003578FB /* 104.969_FortuneRoyalHotel_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 104.969_FortuneRoyalHotel_2.jpg; sourceTree = "<group>"; };
+		9D5E83011C22E5CB003578FB /* 105.353_cochichos-resort.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "105.353_cochichos-resort.jpg"; sourceTree = "<group>"; };
+		9D5E83021C22E5CB003578FB /* 106.468_Udaipur_AravaliSilenceLakend_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 106.468_Udaipur_AravaliSilenceLakend_3.jpg; sourceTree = "<group>"; };
+		9D5E83031C22E5CB003578FB /* 107.236_Mathura_HotelGoverdhanPalace_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 107.236_Mathura_HotelGoverdhanPalace_1.jpg; sourceTree = "<group>"; };
+		9D5E83041C22E5CB003578FB /* 108.576_Munnar_TheEdgeResorts_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 108.576_Munnar_TheEdgeResorts_2.jpg; sourceTree = "<group>"; };
+		9D5E83051C22E5CB003578FB /* 109.972_Mussoorie_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 109.972_Mussoorie_1.jpg; sourceTree = "<group>"; };
+		9D5E83061C22E5CB003578FB /* 11.883_Jaderesort_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 11.883_Jaderesort_1.jpg; sourceTree = "<group>"; };
+		9D5E83071C22E5CB003578FB /* 110.777_MysoreMangoSuites_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 110.777_MysoreMangoSuites_3.jpg; sourceTree = "<group>"; };
+		9D5E83081C22E5CB003578FB /* 111.961_Dharamshala_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 111.961_Dharamshala_3.jpg; sourceTree = "<group>"; };
+		9D5E83091C22E5CB003578FB /* 112.517_cochichos-resort.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "112.517_cochichos-resort.jpg"; sourceTree = "<group>"; };
+		9D5E830A1C22E5CB003578FB /* 113.908_cochichos-resort.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "113.908_cochichos-resort.jpg"; sourceTree = "<group>"; };
+		9D5E830B1C22E5CB003578FB /* 114.834_cochichos-resort.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "114.834_cochichos-resort.jpg"; sourceTree = "<group>"; };
+		9D5E830C1C22E5CB003578FB /* 115.827_JaipurKKRoyal_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 115.827_JaipurKKRoyal_3.jpg; sourceTree = "<group>"; };
+		9D5E830D1C22E5CB003578FB /* 116.969_JimCorbett_IrisSpa&Resort_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "116.969_JimCorbett_IrisSpa&Resort_3.jpg"; sourceTree = "<group>"; };
+		9D5E830E1C22E5CB003578FB /* 117.825_cochichos-resort.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "117.825_cochichos-resort.jpg"; sourceTree = "<group>"; };
+		9D5E830F1C22E5CB003578FB /* 118.991_Manali_PiccadilyHolidayResort_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 118.991_Manali_PiccadilyHolidayResort_2.jpg; sourceTree = "<group>"; };
+		9D5E83101C22E5CB003578FB /* 119.955_Kasauli_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 119.955_Kasauli_2.jpg; sourceTree = "<group>"; };
+		9D5E83111C22E5CB003578FB /* 17.612_Faridabad_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 17.612_Faridabad_2.jpg; sourceTree = "<group>"; };
+		9D5E83121C22E5CB003578FB /* 18.727_NoidaCK27_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 18.727_NoidaCK27_3.jpg; sourceTree = "<group>"; };
+		9D5E83131C22E5CB003578FB /* 19.909_hotel-thu2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "19.909_hotel-thu2.jpg"; sourceTree = "<group>"; };
+		9D5E83141C22E5CB003578FB /* 2.881_AhmedabadFitness_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.881_AhmedabadFitness_1.jpg; sourceTree = "<group>"; };
+		9D5E83151C22E5CB003578FB /* 20.943_Goa_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 20.943_Goa_3.jpg; sourceTree = "<group>"; };
+		9D5E83161C22E5CB003578FB /* 22.816_Assagao_Goa_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 22.816_Assagao_Goa_1.jpg; sourceTree = "<group>"; };
+		9D5E83171C22E5CB003578FB /* 23.405_Begumpet_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 23.405_Begumpet_3.jpg; sourceTree = "<group>"; };
+		9D5E83181C22E5CB003578FB /* 25.788_Medchal_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 25.788_Medchal_2.jpg; sourceTree = "<group>"; };
+		9D5E83191C22E5CB003578FB /* 27.597_AmruthaCastle_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 27.597_AmruthaCastle_2.jpg; sourceTree = "<group>"; };
+		9D5E831A1C22E5CB003578FB /* 3.83_Bannerghatta_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.83_Bannerghatta_3.jpg; sourceTree = "<group>"; };
+		9D5E831B1C22E5CB003578FB /* 31.893_Kodaikanal_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 31.893_Kodaikanal_1.jpg; sourceTree = "<group>"; };
+		9D5E831C1C22E5CB003578FB /* 34.743_KolkataFitness_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 34.743_KolkataFitness_1.jpg; sourceTree = "<group>"; };
+		9D5E831D1C22E5CB003578FB /* 35.929_Lucknow_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 35.929_Lucknow_2.jpg; sourceTree = "<group>"; };
+		9D5E831E1C22E5CB003578FB /* 37.7_Mysore_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 37.7_Mysore_2.jpg; sourceTree = "<group>"; };
+		9D5E831F1C22E5CB003578FB /* 38.94_Andheri_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 38.94_Andheri_3.jpg; sourceTree = "<group>"; };
+		9D5E83201C22E5CB003578FB /* 39.711_Kandivali_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 39.711_Kandivali_1.jpg; sourceTree = "<group>"; };
+		9D5E83211C22E5CB003578FB /* 4.797_Sarjapur_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.797_Sarjapur_1.jpg; sourceTree = "<group>"; };
+		9D5E83221C22E5CB003578FB /* 41.930_Kolad_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 41.930_Kolad_2.jpg; sourceTree = "<group>"; };
+		9D5E83231C22E5CB003578FB /* 44.46_Shimla_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 44.46_Shimla_1.jpg; sourceTree = "<group>"; };
+		9D5E83241C22E5CB003578FB /* 46.171_Surat_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 46.171_Surat_2.jpg; sourceTree = "<group>"; };
+		9D5E83251C22E5CB003578FB /* 48.671_JuhuFitness_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 48.671_JuhuFitness_3.jpg; sourceTree = "<group>"; };
+		9D5E83261C22E5CB003578FB /* 49.70_Thane_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 49.70_Thane_3.jpg; sourceTree = "<group>"; };
+		9D5E83271C22E5CB003578FB /* 5.729_Yelahanka_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.729_Yelahanka_3.jpg; sourceTree = "<group>"; };
+		9D5E83281C22E5CB003578FB /* 50.769_NagpurFitness_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 50.769_NagpurFitness_1.jpg; sourceTree = "<group>"; };
+		9D5E83291C22E5CB003578FB /* 51.723_JaipurFitness_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 51.723_JaipurFitness_2.jpg; sourceTree = "<group>"; };
+		9D5E832A1C22E5CB003578FB /* 52.946_DelhiFitness_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 52.946_DelhiFitness_1.jpg; sourceTree = "<group>"; };
+		9D5E832B1C22E5CB003578FB /* 53.964_Kodaikanal_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 53.964_Kodaikanal_1.jpg; sourceTree = "<group>"; };
+		9D5E832C1C22E5CB003578FB /* 54.916_monako2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 54.916_monako2.jpg; sourceTree = "<group>"; };
+		9D5E832D1C22E5CB003578FB /* 55.792_Bandipur_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 55.792_Bandipur_1.jpg; sourceTree = "<group>"; };
+		9D5E832E1C22E5CB003578FB /* 56.501_AhmedabadClub_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 56.501_AhmedabadClub_2.jpg; sourceTree = "<group>"; };
+		9D5E832F1C22E5CB003578FB /* 57.926_KolkataKasba_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 57.926_KolkataKasba_2.jpg; sourceTree = "<group>"; };
+		9D5E83301C22E5CB003578FB /* 58.863_ChandigarhFitness_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 58.863_ChandigarhFitness_2.jpg; sourceTree = "<group>"; };
+		9D5E83311C22E5CB003578FB /* 59.835_Begumpet_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 59.835_Begumpet_2.jpg; sourceTree = "<group>"; };
+		9D5E83321C22E5CB003578FB /* 6.55_MysoreRoad_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6.55_MysoreRoad_2.jpg; sourceTree = "<group>"; };
+		9D5E83331C22E5CB003578FB /* 61.788_GhatkoparFitness_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 61.788_GhatkoparFitness_1.jpg; sourceTree = "<group>"; };
+		9D5E83341C22E5CB003578FB /* 62.742_PuneFitness_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 62.742_PuneFitness_1.jpg; sourceTree = "<group>"; };
+		9D5E83351C22E5CB003578FB /* 63.675_Kurla_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 63.675_Kurla_1.jpg; sourceTree = "<group>"; };
+		9D5E83361C22E5CB003578FB /* 65.896_Mahabaleshwar_HotelGourish_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 65.896_Mahabaleshwar_HotelGourish_3.jpg; sourceTree = "<group>"; };
+		9D5E83371C22E5CB003578FB /* 68.814_BhandupFitness_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 68.814_BhandupFitness_3.jpg; sourceTree = "<group>"; };
+		9D5E83381C22E5CB003578FB /* 69.871_BangaloreFitness_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 69.871_BangaloreFitness_2.jpg; sourceTree = "<group>"; };
+		9D5E83391C22E5CB003578FB /* 70.62_VizagFitness_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 70.62_VizagFitness_3.jpg; sourceTree = "<group>"; };
+		9D5E833A1C22E5CB003578FB /* 71.846_ChennaiFitness_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 71.846_ChennaiFitness_3.jpg; sourceTree = "<group>"; };
+		9D5E833B1C22E5CB003578FB /* 72.855_Dubai_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 72.855_Dubai_1.jpg; sourceTree = "<group>"; };
+		9D5E833C1C22E5CB003578FB /* 73.775_AbudhabiFitness_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 73.775_AbudhabiFitness_1.jpg; sourceTree = "<group>"; };
+		9D5E833D1C22E5CB003578FB /* 75.887_IndoreFitness_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 75.887_IndoreFitness_2.jpg; sourceTree = "<group>"; };
+		9D5E833E1C22E5CB003578FB /* 8.791_Lakeside_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8.791_Lakeside_3.jpg; sourceTree = "<group>"; };
+		9D5E833F1C22E5CB003578FB /* 91.694_cochichos-resort.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "91.694_cochichos-resort.jpg"; sourceTree = "<group>"; };
+		9D5E83401C22E5CB003578FB /* 92.159_cochichos-resort.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "92.159_cochichos-resort.jpg"; sourceTree = "<group>"; };
+		9D5E83411C22E5CB003578FB /* 93.791_Philippines_MicrotelTarlac_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 93.791_Philippines_MicrotelTarlac_1.jpg; sourceTree = "<group>"; };
+		9D5E83421C22E5CB003578FB /* 94.297_cochichos-resort.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "94.297_cochichos-resort.jpg"; sourceTree = "<group>"; };
+		9D5E83431C22E5CB003578FB /* 95.941_Philippines_MicrotelMallofAsia_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 95.941_Philippines_MicrotelMallofAsia_1.jpg; sourceTree = "<group>"; };
+		9D5E83441C22E5CB003578FB /* 96.495_Philippines_MicrotelDavao_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 96.495_Philippines_MicrotelDavao_1.jpg; sourceTree = "<group>"; };
+		9D5E83451C22E5CB003578FB /* 97.886_Philippines_MicrotelCavite_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 97.886_Philippines_MicrotelCavite_2.jpg; sourceTree = "<group>"; };
+		9D5E83461C22E5CB003578FB /* 98.451_Philippines_MicrotelCabanatuan_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 98.451_Philippines_MicrotelCabanatuan_2.jpg; sourceTree = "<group>"; };
+		9D5E83471C22E5CB003578FB /* 99.983_cochichos-resort.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "99.983_cochichos-resort.jpg"; sourceTree = "<group>"; };
+		9D5E83481C22E5CB003578FB /* Thumbs.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = Thumbs.db; sourceTree = "<group>"; };
+		9D6156C91C3D109B00C19202 /* NewMemberViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewMemberViewController.h; sourceTree = "<group>"; };
+		9D6156CA1C3D109B00C19202 /* NewMemberViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewMemberViewController.m; sourceTree = "<group>"; };
+		9D6156CC1C3D1B0000C19202 /* HistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryViewController.h; sourceTree = "<group>"; };
+		9D6156CD1C3D1B0000C19202 /* HistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = HistoryViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		9D6156CF1C3D2A5500C19202 /* AddMemberView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddMemberView.h; sourceTree = "<group>"; };
+		9D6156D01C3D2A5500C19202 /* AddMemberView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = AddMemberView.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		9D67D8A11C0C7CC40090DFB9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9D68A87F1C27D01D00BC142C /* UITextField+CustomInputViews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+CustomInputViews.h"; sourceTree = "<group>"; };
+		9D68A8801C27D01D00BC142C /* UITextField+CustomInputViews.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = "UITextField+CustomInputViews.m"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		9D813B781C23E15D002E354C /* LocationsDetails.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LocationsDetails.xib; sourceTree = "<group>"; };
+		9D890B111C660B22008FD187 /* HolidaysLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HolidaysLoginViewController.h; sourceTree = "<group>"; };
+		9D890B121C660B22008FD187 /* HolidaysLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = HolidaysLoginViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		9D890B141C661631008FD187 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		9D890B151C661631008FD187 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = SettingsViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		9D9556F71C18510B008040A9 /* Tahoma.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Tahoma.ttf; path = EmployeeTests/Tahoma.ttf; sourceTree = SOURCE_ROOT; };
+		9D9556F81C18510B008040A9 /* Tahoma Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Tahoma Bold.ttf"; path = "EmployeeTests/Tahoma Bold.ttf"; sourceTree = SOURCE_ROOT; };
+		9D958EF01C1EBAE7000246AD /* EventsWithImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventsWithImageViewController.h; sourceTree = "<group>"; };
+		9D958EF11C1EBAE7000246AD /* EventsWithImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = EventsWithImageViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		9D958EF21C1EBAE7000246AD /* EventsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventsViewController.h; sourceTree = "<group>"; };
+		9D958EF31C1EBAE7000246AD /* EventsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = EventsViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		9D958EF61C1EBB72000246AD /* EventDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventDetails.h; sourceTree = "<group>"; };
+		9D958EF71C1EBB72000246AD /* EventDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = EventDetails.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		9D958EF91C1EBB9B000246AD /* EventDetails.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EventDetails.xib; sourceTree = "<group>"; };
+		9D958EFB1C1EBBEE000246AD /* EventsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventsCell.h; sourceTree = "<group>"; };
+		9D958EFC1C1EBBEE000246AD /* EventsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventsCell.m; sourceTree = "<group>"; };
+		9D958EFE1C1EBC5D000246AD /* Event.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Event.xib; sourceTree = "<group>"; };
+		9D958F001C1EBD02000246AD /* EventsByCity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventsByCity.h; sourceTree = "<group>"; };
+		9D958F011C1EBD02000246AD /* EventsByCity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = EventsByCity.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		9D958F031C1EBD53000246AD /* EventsByCity.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EventsByCity.xib; sourceTree = "<group>"; };
+		9D958F051C1EBE5F000246AD /* SelectedEventsDedtails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectedEventsDedtails.h; sourceTree = "<group>"; };
+		9D958F061C1EBE5F000246AD /* SelectedEventsDedtails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = SelectedEventsDedtails.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		9D958F081C1EBE80000246AD /* SelectedEventsDedtails.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SelectedEventsDedtails.xib; sourceTree = "<group>"; };
+		9D958F0A1C1EBF00000246AD /* UIImageView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+WebCache.h"; sourceTree = "<group>"; };
+		9D958F0B1C1EBF00000246AD /* UIImageView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+WebCache.m"; sourceTree = "<group>"; };
+		9D958F0D1C1EBFBC000246AD /* CountryClubModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountryClubModel.h; sourceTree = "<group>"; };
+		9D958F0E1C1EBFBC000246AD /* CountryClubModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = CountryClubModel.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		9D958F0F1C1EBFBC000246AD /* CountryClubNewWebServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountryClubNewWebServices.h; sourceTree = "<group>"; };
+		9D958F111C1EC5BA000246AD /* SDWebImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageManager.h; sourceTree = "<group>"; };
+		9D958F121C1EC5BA000246AD /* SDWebImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageManager.m; sourceTree = "<group>"; };
+		9D958F141C1EC624000246AD /* SelectLocationViewcontroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectLocationViewcontroller.h; sourceTree = "<group>"; };
+		9D958F151C1EC624000246AD /* SelectLocationViewcontroller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectLocationViewcontroller.m; sourceTree = "<group>"; };
+		9D958F171C1EC65C000246AD /* SelectLocationViewcontroller.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SelectLocationViewcontroller.xib; sourceTree = "<group>"; };
+		9D958F191C1EC6F3000246AD /* SDWebImageCompat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageCompat.h; sourceTree = "<group>"; };
+		9D958F1A1C1EC6F3000246AD /* SDWebImageCompat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageCompat.m; sourceTree = "<group>"; };
+		9D958F1C1C1EC74D000246AD /* SDWebImageOperation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDWebImageOperation.h; sourceTree = "<group>"; };
+		9D958F1D1C1EC76D000246AD /* SDWebImageDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDownloader.h; sourceTree = "<group>"; };
+		9D958F1E1C1EC76D000246AD /* SDWebImageDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDownloader.m; sourceTree = "<group>"; };
+		9D958F201C1EC78D000246AD /* SDImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDImageCache.h; sourceTree = "<group>"; };
+		9D958F211C1EC78D000246AD /* SDImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDImageCache.m; sourceTree = "<group>"; };
+		9D958F231C1EC7C1000246AD /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
+		9D958F241C1EC7C1000246AD /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
+		9D958F261C1EC7E8000246AD /* SDWebImageDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDecoder.h; sourceTree = "<group>"; };
+		9D958F271C1EC7E8000246AD /* SDWebImageDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDecoder.m; sourceTree = "<group>"; };
+		9D958F291C1EC803000246AD /* UIImage+MultiFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+MultiFormat.h"; sourceTree = "<group>"; };
+		9D958F2A1C1EC803000246AD /* UIImage+MultiFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = "UIImage+MultiFormat.m"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		9D958F2C1C1EC829000246AD /* UIImage+GIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+GIF.h"; sourceTree = "<group>"; };
+		9D958F2D1C1EC829000246AD /* UIImage+GIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+GIF.m"; sourceTree = "<group>"; };
+		9D958F2F1C1EC846000246AD /* NSData+ImageContentType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+ImageContentType.h"; sourceTree = "<group>"; };
+		9D958F301C1EC846000246AD /* NSData+ImageContentType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+ImageContentType.m"; sourceTree = "<group>"; };
+		9D958F321C1EC963000246AD /* SDWebImageDownloaderOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDownloaderOperation.h; sourceTree = "<group>"; };
+		9D958F331C1EC963000246AD /* SDWebImageDownloaderOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDownloaderOperation.m; sourceTree = "<group>"; };
+		9D958F351C1EC9BD000246AD /* CustomCellForProfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCellForProfile.h; sourceTree = "<group>"; };
+		9D958F361C1EC9BD000246AD /* CustomCellForProfile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCellForProfile.m; sourceTree = "<group>"; };
+		9D958F381C1EC9F0000246AD /* CustomCellForProfile.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCellForProfile.xib; sourceTree = "<group>"; };
+		9DD59E581C3C002100C7E950 /* SalesLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SalesLoginViewController.h; sourceTree = "<group>"; };
+		9DD59E591C3C002100C7E950 /* SalesLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SalesLoginViewController.m; sourceTree = "<group>"; };
+		9DF26CC71BE9F6B000E1BD03 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		9DF53A501BE4C99C009F29B6 /* TeamCCHHL.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TeamCCHHL.pch; sourceTree = "<group>"; };
+		9DF53A521BE4D96D009F29B6 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		9DF53A541BE4EEB8009F29B6 /* customCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = customCell.h; sourceTree = "<group>"; };
+		9DF53A551BE4EEB8009F29B6 /* customCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = customCell.m; sourceTree = "<group>"; };
+		9DF995991BF0A8D300B8E72F /* PaySlipViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaySlipViewController.h; sourceTree = "<group>"; };
+		9DF9959A1BF0A8D300B8E72F /* PaySlipViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = PaySlipViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		9DF9D4BB1BE8AEE8002827FC /* UINavigationBar+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+Addition.h"; sourceTree = "<group>"; };
+		9DF9D4BC1BE8AEE8002827FC /* UINavigationBar+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+Addition.m"; sourceTree = "<group>"; };
+		9DF9D4C01BE8B6AF002827FC /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProfileViewController.h; path = Employee/ProfileViewController.h; sourceTree = "<group>"; };
+		9DF9D4C11BE8B6AF002827FC /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProfileViewController.m; path = Employee/ProfileViewController.m; sourceTree = "<group>"; };
+		9DFB4BAE1BF1C6CB00E0E59F /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		9DFB4BAF1BF1C6CB00E0E59F /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		9DFD1FA01C8ED134007A65B2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9DFDB47C1C182BFE0077870C /* CustomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableViewCell.h; sourceTree = "<group>"; };
+		9DFDB47D1C182BFE0077870C /* CustomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewCell.m; sourceTree = "<group>"; };
+		9DFDB4811C182D6A0077870C /* FTWCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTWCache.h; sourceTree = "<group>"; };
+		9DFDB4821C182D6A0077870C /* FTWCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTWCache.m; sourceTree = "<group>"; };
+		9DFDB4831C182D6A0077870C /* NSString+MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5.h"; sourceTree = "<group>"; };
+		9DFDB4841C182D6A0077870C /* NSString+MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5.m"; sourceTree = "<group>"; };
+		9DFDB4871C18320A0077870C /* CustomTableview_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomTableview_iPhone.xib; sourceTree = "<group>"; };
+		A3501BCC1546993CA3D1758E /* libPods-TeamCCHHL.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TeamCCHHL.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E83C10ACD481BC4474207F57 /* Pods-TeamCCHHL.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeamCCHHL.release.xcconfig"; path = "Pods/Target Support Files/Pods-TeamCCHHL/Pods-TeamCCHHL.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9D3EE1ED1BE480D100853671 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D67D8A21C0C7CC40090DFB9 /* UIKit.framework in Frameworks */,
+				9DF26CC81BE9F6B000E1BD03 /* QuartzCore.framework in Frameworks */,
+				89C4483BBCC2F8DE2C6C9C61 /* libPods-TeamCCHHL.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E6D060699D6280C63BC64D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0B77BE98F5F60BEFB769F489 /* Pods-TeamCCHHL.debug.xcconfig */,
+				E83C10ACD481BC4474207F57 /* Pods-TeamCCHHL.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		08CFFC78BF3FE967BE41A67B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A3501BCC1546993CA3D1758E /* libPods-TeamCCHHL.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9D276A2F1C3F73FE006FCD01 /* Xibs */ = {
+			isa = PBXGroup;
+			children = (
+				9D5E82D91C22CBBE003578FB /* LocationsDetails.h */,
+				9D5E82DA1C22CBBE003578FB /* LocationsDetails.m */,
+				9D813B781C23E15D002E354C /* LocationsDetails.xib */,
+				9D1C3A641C686EF300E0EBC6 /* ResortsListViewController.h */,
+				9D1C3A651C686EF300E0EBC6 /* ResortsListViewController.m */,
+				9D1C3A671C686F0F00E0EBC6 /* ResortsListViewController.xib */,
+				9D1C3A6E1C686FB500E0EBC6 /* BookingHolidayViewcontroller.h */,
+				9D1C3A6F1C686FB500E0EBC6 /* BookingHolidayViewcontroller.m */,
+				9D1C3A711C686FCC00E0EBC6 /* BookingHolidayViewcontroller.xib */,
+				9D958F141C1EC624000246AD /* SelectLocationViewcontroller.h */,
+				9D958F151C1EC624000246AD /* SelectLocationViewcontroller.m */,
+				9D958F171C1EC65C000246AD /* SelectLocationViewcontroller.xib */,
+				9D5E82EA1C22CE4E003578FB /* DisplayLocationImagesView.h */,
+				9D5E82EB1C22CE4E003578FB /* DisplayLocationImagesView.m */,
+				9D5E82E81C22CE40003578FB /* DisplayLocationImagesView.xib */,
+				9D958EFB1C1EBBEE000246AD /* EventsCell.h */,
+				9D958EFC1C1EBBEE000246AD /* EventsCell.m */,
+				9D958EFE1C1EBC5D000246AD /* Event.xib */,
+				9D958F351C1EC9BD000246AD /* CustomCellForProfile.h */,
+				9D958F361C1EC9BD000246AD /* CustomCellForProfile.m */,
+				9D958F381C1EC9F0000246AD /* CustomCellForProfile.xib */,
+				9DFDB47C1C182BFE0077870C /* CustomTableViewCell.h */,
+				9DFDB47D1C182BFE0077870C /* CustomTableViewCell.m */,
+				9DFDB4871C18320A0077870C /* CustomTableview_iPhone.xib */,
+				9D958EF61C1EBB72000246AD /* EventDetails.h */,
+				9D958EF71C1EBB72000246AD /* EventDetails.m */,
+				9D958EF91C1EBB9B000246AD /* EventDetails.xib */,
+				9D958F051C1EBE5F000246AD /* SelectedEventsDedtails.h */,
+				9D958F061C1EBE5F000246AD /* SelectedEventsDedtails.m */,
+				9D958F081C1EBE80000246AD /* SelectedEventsDedtails.xib */,
+				9D958F001C1EBD02000246AD /* EventsByCity.h */,
+				9D958F011C1EBD02000246AD /* EventsByCity.m */,
+				9D958F031C1EBD53000246AD /* EventsByCity.xib */,
+			);
+			name = Xibs;
+			sourceTree = "<group>";
+		};
+		9D276A321C3F7604006FCD01 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9D6156CF1C3D2A5500C19202 /* AddMemberView.h */,
+				9D6156D01C3D2A5500C19202 /* AddMemberView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		9D3EE1E71BE480D100853671 = {
+			isa = PBXGroup;
+			children = (
+				9DFD1FA01C8ED134007A65B2 /* GoogleService-Info.plist */,
+				9D276A2F1C3F73FE006FCD01 /* Xibs */,
+				9D5E82FB1C22E5CB003578FB /* resort_images */,
+				9D4280081BE72A9000CE7B0A /* APIManager */,
+				9DF53A531BE4EE5A009F29B6 /* CustomTableCell */,
+				9DF53A511BE4D89E009F29B6 /* Utilities */,
+				9D5F53871BEA1CF900E50647 /* ViewControllers */,
+				9D276A321C3F7604006FCD01 /* View */,
+				9D3EE1F21BE480D100853671 /* Employee */,
+				9D3EE20C1BE480D100853671 /* EmployeeTests */,
+				9D3EE2171BE480D100853671 /* EmployeeUITests */,
+				9D3EE1F11BE480D100853671 /* Products */,
+				00E6D060699D6280C63BC64D /* Pods */,
+				08CFFC78BF3FE967BE41A67B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9D3EE1F11BE480D100853671 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9D3EE1F01BE480D100853671 /* TeamCCHHL.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9D3EE1F21BE480D100853671 /* Employee */ = {
+			isa = PBXGroup;
+			children = (
+				9D3EE1F61BE480D100853671 /* AppDelegate.h */,
+				9D3EE1F71BE480D100853671 /* AppDelegate.m */,
+				9D3EE1F91BE480D100853671 /* ViewController.h */,
+				9D3EE1FA1BE480D100853671 /* ViewController.m */,
+				9D3EE1FC1BE480D100853671 /* Main.storyboard */,
+				9D3EE1FF1BE480D100853671 /* Assets.xcassets */,
+				9D3EE2011BE480D100853671 /* LaunchScreen.storyboard */,
+				9D3EE2041BE480D100853671 /* Info.plist */,
+				9D3EE1F31BE480D100853671 /* Supporting Files */,
+			);
+			path = Employee;
+			sourceTree = "<group>";
+		};
+		9D3EE1F31BE480D100853671 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9DF53A501BE4C99C009F29B6 /* TeamCCHHL.pch */,
+				9D9556F71C18510B008040A9 /* Tahoma.ttf */,
+				9D9556F81C18510B008040A9 /* Tahoma Bold.ttf */,
+				9D3EE1F41BE480D100853671 /* main.m */,
+				9DF26CC71BE9F6B000E1BD03 /* QuartzCore.framework */,
+				9D67D8A11C0C7CC40090DFB9 /* UIKit.framework */,
+				9D11E1E31BF7514F00F10A0E /* CoreFoundation.framework */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9D3EE20C1BE480D100853671 /* EmployeeTests */ = {
+			isa = PBXGroup;
+			children = (
+				9D3EE20D1BE480D100853671 /* EmployeeTests.m */,
+				9D3EE20F1BE480D100853671 /* Info.plist */,
+			);
+			path = EmployeeTests;
+			sourceTree = "<group>";
+		};
+		9D3EE2171BE480D100853671 /* EmployeeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9D3EE2181BE480D100853671 /* EmployeeUITests.m */,
+				9D3EE21A1BE480D100853671 /* Info.plist */,
+			);
+			path = EmployeeUITests;
+			sourceTree = "<group>";
+		};
+		9D4280081BE72A9000CE7B0A /* APIManager */ = {
+			isa = PBXGroup;
+			children = (
+				9D958F0D1C1EBFBC000246AD /* CountryClubModel.h */,
+				9D958F0E1C1EBFBC000246AD /* CountryClubModel.m */,
+				9D958F0F1C1EBFBC000246AD /* CountryClubNewWebServices.h */,
+				9D4280091BE72DBC00CE7B0A /* webServiceHelper.h */,
+				9D42800A1BE72DBC00CE7B0A /* webServiceHelper.m */,
+			);
+			name = APIManager;
+			sourceTree = "<group>";
+		};
+		9D5E82FB1C22E5CB003578FB /* resort_images */ = {
+			isa = PBXGroup;
+			children = (
+				9D5E82FC1C22E5CB003578FB /* 100.829_Philippines_MicrotelBatangas_1.jpg */,
+				9D5E82FD1C22E5CB003578FB /* 101.719_Philippines_MicrotelBaguio_2.jpg */,
+				9D5E82FE1C22E5CB003578FB /* 102.755_QuwainFlamingoBeachResort_3.jpg */,
+				9D5E82FF1C22E5CB003578FB /* 103.305_cochichos-resort.jpg */,
+				9D5E83001C22E5CB003578FB /* 104.969_FortuneRoyalHotel_2.jpg */,
+				9D5E83011C22E5CB003578FB /* 105.353_cochichos-resort.jpg */,
+				9D5E83021C22E5CB003578FB /* 106.468_Udaipur_AravaliSilenceLakend_3.jpg */,
+				9D5E83031C22E5CB003578FB /* 107.236_Mathura_HotelGoverdhanPalace_1.jpg */,
+				9D5E83041C22E5CB003578FB /* 108.576_Munnar_TheEdgeResorts_2.jpg */,
+				9D5E83051C22E5CB003578FB /* 109.972_Mussoorie_1.jpg */,
+				9D5E83061C22E5CB003578FB /* 11.883_Jaderesort_1.jpg */,
+				9D5E83071C22E5CB003578FB /* 110.777_MysoreMangoSuites_3.jpg */,
+				9D5E83081C22E5CB003578FB /* 111.961_Dharamshala_3.jpg */,
+				9D5E83091C22E5CB003578FB /* 112.517_cochichos-resort.jpg */,
+				9D5E830A1C22E5CB003578FB /* 113.908_cochichos-resort.jpg */,
+				9D5E830B1C22E5CB003578FB /* 114.834_cochichos-resort.jpg */,
+				9D5E830C1C22E5CB003578FB /* 115.827_JaipurKKRoyal_3.jpg */,
+				9D5E830D1C22E5CB003578FB /* 116.969_JimCorbett_IrisSpa&Resort_3.jpg */,
+				9D5E830E1C22E5CB003578FB /* 117.825_cochichos-resort.jpg */,
+				9D5E830F1C22E5CB003578FB /* 118.991_Manali_PiccadilyHolidayResort_2.jpg */,
+				9D5E83101C22E5CB003578FB /* 119.955_Kasauli_2.jpg */,
+				9D5E83111C22E5CB003578FB /* 17.612_Faridabad_2.jpg */,
+				9D5E83121C22E5CB003578FB /* 18.727_NoidaCK27_3.jpg */,
+				9D5E83131C22E5CB003578FB /* 19.909_hotel-thu2.jpg */,
+				9D5E83141C22E5CB003578FB /* 2.881_AhmedabadFitness_1.jpg */,
+				9D5E83151C22E5CB003578FB /* 20.943_Goa_3.jpg */,
+				9D5E83161C22E5CB003578FB /* 22.816_Assagao_Goa_1.jpg */,
+				9D5E83171C22E5CB003578FB /* 23.405_Begumpet_3.jpg */,
+				9D5E83181C22E5CB003578FB /* 25.788_Medchal_2.jpg */,
+				9D5E83191C22E5CB003578FB /* 27.597_AmruthaCastle_2.jpg */,
+				9D5E831A1C22E5CB003578FB /* 3.83_Bannerghatta_3.jpg */,
+				9D5E831B1C22E5CB003578FB /* 31.893_Kodaikanal_1.jpg */,
+				9D5E831C1C22E5CB003578FB /* 34.743_KolkataFitness_1.jpg */,
+				9D5E831D1C22E5CB003578FB /* 35.929_Lucknow_2.jpg */,
+				9D5E831E1C22E5CB003578FB /* 37.7_Mysore_2.jpg */,
+				9D5E831F1C22E5CB003578FB /* 38.94_Andheri_3.jpg */,
+				9D5E83201C22E5CB003578FB /* 39.711_Kandivali_1.jpg */,
+				9D5E83211C22E5CB003578FB /* 4.797_Sarjapur_1.jpg */,
+				9D5E83221C22E5CB003578FB /* 41.930_Kolad_2.jpg */,
+				9D5E83231C22E5CB003578FB /* 44.46_Shimla_1.jpg */,
+				9D5E83241C22E5CB003578FB /* 46.171_Surat_2.jpg */,
+				9D5E83251C22E5CB003578FB /* 48.671_JuhuFitness_3.jpg */,
+				9D5E83261C22E5CB003578FB /* 49.70_Thane_3.jpg */,
+				9D5E83271C22E5CB003578FB /* 5.729_Yelahanka_3.jpg */,
+				9D5E83281C22E5CB003578FB /* 50.769_NagpurFitness_1.jpg */,
+				9D5E83291C22E5CB003578FB /* 51.723_JaipurFitness_2.jpg */,
+				9D5E832A1C22E5CB003578FB /* 52.946_DelhiFitness_1.jpg */,
+				9D5E832B1C22E5CB003578FB /* 53.964_Kodaikanal_1.jpg */,
+				9D5E832C1C22E5CB003578FB /* 54.916_monako2.jpg */,
+				9D5E832D1C22E5CB003578FB /* 55.792_Bandipur_1.jpg */,
+				9D5E832E1C22E5CB003578FB /* 56.501_AhmedabadClub_2.jpg */,
+				9D5E832F1C22E5CB003578FB /* 57.926_KolkataKasba_2.jpg */,
+				9D5E83301C22E5CB003578FB /* 58.863_ChandigarhFitness_2.jpg */,
+				9D5E83311C22E5CB003578FB /* 59.835_Begumpet_2.jpg */,
+				9D5E83321C22E5CB003578FB /* 6.55_MysoreRoad_2.jpg */,
+				9D5E83331C22E5CB003578FB /* 61.788_GhatkoparFitness_1.jpg */,
+				9D5E83341C22E5CB003578FB /* 62.742_PuneFitness_1.jpg */,
+				9D5E83351C22E5CB003578FB /* 63.675_Kurla_1.jpg */,
+				9D5E83361C22E5CB003578FB /* 65.896_Mahabaleshwar_HotelGourish_3.jpg */,
+				9D5E83371C22E5CB003578FB /* 68.814_BhandupFitness_3.jpg */,
+				9D5E83381C22E5CB003578FB /* 69.871_BangaloreFitness_2.jpg */,
+				9D5E83391C22E5CB003578FB /* 70.62_VizagFitness_3.jpg */,
+				9D5E833A1C22E5CB003578FB /* 71.846_ChennaiFitness_3.jpg */,
+				9D5E833B1C22E5CB003578FB /* 72.855_Dubai_1.jpg */,
+				9D5E833C1C22E5CB003578FB /* 73.775_AbudhabiFitness_1.jpg */,
+				9D5E833D1C22E5CB003578FB /* 75.887_IndoreFitness_2.jpg */,
+				9D5E833E1C22E5CB003578FB /* 8.791_Lakeside_3.jpg */,
+				9D5E833F1C22E5CB003578FB /* 91.694_cochichos-resort.jpg */,
+				9D5E83401C22E5CB003578FB /* 92.159_cochichos-resort.jpg */,
+				9D5E83411C22E5CB003578FB /* 93.791_Philippines_MicrotelTarlac_1.jpg */,
+				9D5E83421C22E5CB003578FB /* 94.297_cochichos-resort.jpg */,
+				9D5E83431C22E5CB003578FB /* 95.941_Philippines_MicrotelMallofAsia_1.jpg */,
+				9D5E83441C22E5CB003578FB /* 96.495_Philippines_MicrotelDavao_1.jpg */,
+				9D5E83451C22E5CB003578FB /* 97.886_Philippines_MicrotelCavite_2.jpg */,
+				9D5E83461C22E5CB003578FB /* 98.451_Philippines_MicrotelCabanatuan_2.jpg */,
+				9D5E83471C22E5CB003578FB /* 99.983_cochichos-resort.jpg */,
+				9D5E83481C22E5CB003578FB /* Thumbs.db */,
+			);
+			path = resort_images;
+			sourceTree = "<group>";
+		};
+		9D5F53871BEA1CF900E50647 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				9D5D86A31C00785900C6EC94 /* SWRevealViewController.h */,
+				9D5D86A41C00785900C6EC94 /* SWRevealViewController.m */,
+				9D5D869D1C00783F00C6EC94 /* SidebarViewController.h */,
+				9D5D869E1C00783F00C6EC94 /* SidebarViewController.m */,
+				9D5D86A01C00784C00C6EC94 /* MainViewController.h */,
+				9D5D86A11C00784C00C6EC94 /* MainViewController.m */,
+				9DF9D4C01BE8B6AF002827FC /* ProfileViewController.h */,
+				9DF9D4C11BE8B6AF002827FC /* ProfileViewController.m */,
+				9D4A3E7A1BEB3A370075E7F9 /* AttendanceViewController.h */,
+				9D4A3E7B1BEB3A370075E7F9 /* AttendanceViewController.m */,
+				9DF995991BF0A8D300B8E72F /* PaySlipViewController.h */,
+				9DF9959A1BF0A8D300B8E72F /* PaySlipViewController.m */,
+				9D565DED1C16D452000CD7D4 /* CCHHLiveViewController.h */,
+				9D565DEE1C16D452000CD7D4 /* CCHHLiveViewController.m */,
+				9D062E571C199907000F3E11 /* ImagesViewController.h */,
+				9D062E581C199907000F3E11 /* ImagesViewController.m */,
+				9D958EF01C1EBAE7000246AD /* EventsWithImageViewController.h */,
+				9D958EF11C1EBAE7000246AD /* EventsWithImageViewController.m */,
+				9D958EF21C1EBAE7000246AD /* EventsViewController.h */,
+				9D958EF31C1EBAE7000246AD /* EventsViewController.m */,
+				9D5E82D11C22CB21003578FB /* LocatesViewController.h */,
+				9D5E82D21C22CB21003578FB /* LocatesViewController.m */,
+				9D03A32F1C3BA42A00BBC224 /* SalesViewController.h */,
+				9D03A3301C3BA42A00BBC224 /* SalesViewController.m */,
+				9DD59E581C3C002100C7E950 /* SalesLoginViewController.h */,
+				9DD59E591C3C002100C7E950 /* SalesLoginViewController.m */,
+				9D6156C91C3D109B00C19202 /* NewMemberViewController.h */,
+				9D6156CA1C3D109B00C19202 /* NewMemberViewController.m */,
+				9D6156CC1C3D1B0000C19202 /* HistoryViewController.h */,
+				9D6156CD1C3D1B0000C19202 /* HistoryViewController.m */,
+				826E51501C5708DB00D98136 /* MemberDetailsViewController.h */,
+				826E51511C5708DB00D98136 /* MemberDetailsViewController.m */,
+				9D890B111C660B22008FD187 /* HolidaysLoginViewController.h */,
+				9D890B121C660B22008FD187 /* HolidaysLoginViewController.m */,
+				9D1C3A611C6869C600E0EBC6 /* HolidaysViewController.h */,
+				9D1C3A621C6869C600E0EBC6 /* HolidaysViewController.m */,
+				9D890B141C661631008FD187 /* SettingsViewController.h */,
+				9D890B151C661631008FD187 /* SettingsViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		9DF53A511BE4D89E009F29B6 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				9DF9D4BB1BE8AEE8002827FC /* UINavigationBar+Addition.h */,
+				9D958F111C1EC5BA000246AD /* SDWebImageManager.h */,
+				9D958F121C1EC5BA000246AD /* SDWebImageManager.m */,
+				9D958F1D1C1EC76D000246AD /* SDWebImageDownloader.h */,
+				9D958F1E1C1EC76D000246AD /* SDWebImageDownloader.m */,
+				9D958F1C1C1EC74D000246AD /* SDWebImageOperation.h */,
+				9DF9D4BC1BE8AEE8002827FC /* UINavigationBar+Addition.m */,
+				9D958F231C1EC7C1000246AD /* UIView+WebCacheOperation.h */,
+				9D958F241C1EC7C1000246AD /* UIView+WebCacheOperation.m */,
+				9D958F261C1EC7E8000246AD /* SDWebImageDecoder.h */,
+				9D958F271C1EC7E8000246AD /* SDWebImageDecoder.m */,
+				9D958F201C1EC78D000246AD /* SDImageCache.h */,
+				9D958F2F1C1EC846000246AD /* NSData+ImageContentType.h */,
+				9D958F301C1EC846000246AD /* NSData+ImageContentType.m */,
+				9D958F211C1EC78D000246AD /* SDImageCache.m */,
+				9D958F291C1EC803000246AD /* UIImage+MultiFormat.h */,
+				9D958F2A1C1EC803000246AD /* UIImage+MultiFormat.m */,
+				9D958F2C1C1EC829000246AD /* UIImage+GIF.h */,
+				9D958F2D1C1EC829000246AD /* UIImage+GIF.m */,
+				9D42800F1BE75A9300CE7B0A /* MBProgressHUD.h */,
+				9D4280101BE75A9300CE7B0A /* MBProgressHUD.m */,
+				9D4280151BE77A8900CE7B0A /* UIColor+Hexadecimal.h */,
+				9D4280161BE77A8900CE7B0A /* UIColor+Hexadecimal.m */,
+				9DFB4BAE1BF1C6CB00E0E59F /* Reachability.h */,
+				9DFB4BAF1BF1C6CB00E0E59F /* Reachability.m */,
+				9DFDB4811C182D6A0077870C /* FTWCache.h */,
+				9DFDB4821C182D6A0077870C /* FTWCache.m */,
+				9D958F321C1EC963000246AD /* SDWebImageDownloaderOperation.h */,
+				9D958F331C1EC963000246AD /* SDWebImageDownloaderOperation.m */,
+				9D958F191C1EC6F3000246AD /* SDWebImageCompat.h */,
+				9D958F1A1C1EC6F3000246AD /* SDWebImageCompat.m */,
+				9DFDB4831C182D6A0077870C /* NSString+MD5.h */,
+				9DFDB4841C182D6A0077870C /* NSString+MD5.m */,
+				9DF53A521BE4D96D009F29B6 /* Constants.h */,
+				9D4280121BE7644E00CE7B0A /* Utils.h */,
+				9D4280131BE7644E00CE7B0A /* Utils.m */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		9DF53A531BE4EE5A009F29B6 /* CustomTableCell */ = {
+			isa = PBXGroup;
+			children = (
+				9DF53A541BE4EEB8009F29B6 /* customCell.h */,
+				9DF53A551BE4EEB8009F29B6 /* customCell.m */,
+				9D68A87F1C27D01D00BC142C /* UITextField+CustomInputViews.h */,
+				9D68A8801C27D01D00BC142C /* UITextField+CustomInputViews.m */,
+				9D420E531C0707E60094446C /* SKSTableView.h */,
+				9D420E541C0707E60094446C /* SKSTableView.m */,
+				9D420E551C0707E60094446C /* SKSTableViewCell.h */,
+				9D420E561C0707E60094446C /* SKSTableViewCell.m */,
+				9D958F0A1C1EBF00000246AD /* UIImageView+WebCache.h */,
+				9D958F0B1C1EBF00000246AD /* UIImageView+WebCache.m */,
+				9D5E82D41C22CB5C003578FB /* LocationsView.h */,
+				9D5E82D51C22CB5C003578FB /* LocationsView.m */,
+				9D420E571C0707E60094446C /* SKSTableViewCellIndicator.h */,
+				9D420E581C0707E60094446C /* SKSTableViewCellIndicator.m */,
+				9D3EF1551C3E945500DB9D2A /* HistoryTableViewCell.h */,
+				9D3EF1561C3E945500DB9D2A /* HistoryTableViewCell.m */,
+			);
+			name = CustomTableCell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9D3EE1EF1BE480D100853671 /* TeamCCHHL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D3EE21D1BE480D100853671 /* Build configuration list for PBXNativeTarget "TeamCCHHL" */;
+			buildPhases = (
+				149EB713E0DA581A2C45CA2C /* Check Pods Manifest.lock */,
+				9D3EE1EC1BE480D100853671 /* Sources */,
+				9D3EE1ED1BE480D100853671 /* Frameworks */,
+				9D3EE1EE1BE480D100853671 /* Resources */,
+				FBC10F334B6AE417047A0047 /* Embed Pods Frameworks */,
+				CF7CC7B3E845E89E4B928793 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TeamCCHHL;
+			productName = Employee;
+			productReference = 9D3EE1F01BE480D100853671 /* TeamCCHHL.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9D3EE1E81BE480D100853671 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Country Club";
+				TargetAttributes = {
+					9D3EE1EF1BE480D100853671 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = WG9XD5A6AC;
+					};
+				};
+			};
+			buildConfigurationList = 9D3EE1EB1BE480D100853671 /* Build configuration list for PBXProject "TeamCCHHL" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9D3EE1E71BE480D100853671;
+			productRefGroup = 9D3EE1F11BE480D100853671 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9D3EE1EF1BE480D100853671 /* TeamCCHHL */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9D3EE1EE1BE480D100853671 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D5E836C1C22E5CB003578FB /* 38.94_Andheri_3.jpg in Resources */,
+				9D5E83731C22E5CB003578FB /* 49.70_Thane_3.jpg in Resources */,
+				9D5E83711C22E5CB003578FB /* 46.171_Surat_2.jpg in Resources */,
+				9D5E836E1C22E5CB003578FB /* 4.797_Sarjapur_1.jpg in Resources */,
+				9D5E83721C22E5CB003578FB /* 48.671_JuhuFitness_3.jpg in Resources */,
+				9D5E83861C22E5CB003578FB /* 70.62_VizagFitness_3.jpg in Resources */,
+				9D5E83771C22E5CB003578FB /* 52.946_DelhiFitness_1.jpg in Resources */,
+				9D5E83671C22E5CB003578FB /* 3.83_Bannerghatta_3.jpg in Resources */,
+				9D5E83641C22E5CB003578FB /* 23.405_Begumpet_3.jpg in Resources */,
+				9D5E834C1C22E5CB003578FB /* 103.305_cochichos-resort.jpg in Resources */,
+				9D5E83591C22E5CB003578FB /* 115.827_JaipurKKRoyal_3.jpg in Resources */,
+				9D958F041C1EBD53000246AD /* EventsByCity.xib in Resources */,
+				9D5E83491C22E5CB003578FB /* 100.829_Philippines_MicrotelBatangas_1.jpg in Resources */,
+				9D5E835B1C22E5CB003578FB /* 117.825_cochichos-resort.jpg in Resources */,
+				9D5E836D1C22E5CB003578FB /* 39.711_Kandivali_1.jpg in Resources */,
+				9D5E838B1C22E5CB003578FB /* 8.791_Lakeside_3.jpg in Resources */,
+				9D5E83781C22E5CB003578FB /* 53.964_Kodaikanal_1.jpg in Resources */,
+				9D1C3A681C686F0F00E0EBC6 /* ResortsListViewController.xib in Resources */,
+				9D5E835F1C22E5CB003578FB /* 18.727_NoidaCK27_3.jpg in Resources */,
+				9D5E83761C22E5CB003578FB /* 51.723_JaipurFitness_2.jpg in Resources */,
+				9D5E837A1C22E5CB003578FB /* 55.792_Bandipur_1.jpg in Resources */,
+				9DFDB4881C18320A0077870C /* CustomTableview_iPhone.xib in Resources */,
+				9D5E837C1C22E5CB003578FB /* 57.926_KolkataKasba_2.jpg in Resources */,
+				9D5E83911C22E5CB003578FB /* 96.495_Philippines_MicrotelDavao_1.jpg in Resources */,
+				9D5E83741C22E5CB003578FB /* 5.729_Yelahanka_3.jpg in Resources */,
+				9D3EE2031BE480D100853671 /* LaunchScreen.storyboard in Resources */,
+				9D5E83831C22E5CB003578FB /* 65.896_Mahabaleshwar_HotelGourish_3.jpg in Resources */,
+				9D5E835A1C22E5CB003578FB /* 116.969_JimCorbett_IrisSpa&Resort_3.jpg in Resources */,
+				9D5E836A1C22E5CB003578FB /* 35.929_Lucknow_2.jpg in Resources */,
+				9D5E834A1C22E5CB003578FB /* 101.719_Philippines_MicrotelBaguio_2.jpg in Resources */,
+				9D5E83791C22E5CB003578FB /* 54.916_monako2.jpg in Resources */,
+				9D5E83691C22E5CB003578FB /* 34.743_KolkataFitness_1.jpg in Resources */,
+				9D5E838F1C22E5CB003578FB /* 94.297_cochichos-resort.jpg in Resources */,
+				9D5E83571C22E5CB003578FB /* 113.908_cochichos-resort.jpg in Resources */,
+				9D5E83891C22E5CB003578FB /* 73.775_AbudhabiFitness_1.jpg in Resources */,
+				9D5E83521C22E5CB003578FB /* 109.972_Mussoorie_1.jpg in Resources */,
+				9D5E835E1C22E5CB003578FB /* 17.612_Faridabad_2.jpg in Resources */,
+				9D5E83621C22E5CB003578FB /* 20.943_Goa_3.jpg in Resources */,
+				9D958F091C1EBE80000246AD /* SelectedEventsDedtails.xib in Resources */,
+				9D5E83601C22E5CB003578FB /* 19.909_hotel-thu2.jpg in Resources */,
+				9D5E834E1C22E5CB003578FB /* 105.353_cochichos-resort.jpg in Resources */,
+				9D5E83631C22E5CB003578FB /* 22.816_Assagao_Goa_1.jpg in Resources */,
+				9D1C3A721C686FCC00E0EBC6 /* BookingHolidayViewcontroller.xib in Resources */,
+				9D5E834B1C22E5CB003578FB /* 102.755_QuwainFlamingoBeachResort_3.jpg in Resources */,
+				9D958EFF1C1EBC5D000246AD /* Event.xib in Resources */,
+				9D5E83871C22E5CB003578FB /* 71.846_ChennaiFitness_3.jpg in Resources */,
+				9D5E83951C22E5CB003578FB /* Thumbs.db in Resources */,
+				9D5E838E1C22E5CB003578FB /* 93.791_Philippines_MicrotelTarlac_1.jpg in Resources */,
+				9D5E83531C22E5CB003578FB /* 11.883_Jaderesort_1.jpg in Resources */,
+				9D5E83551C22E5CB003578FB /* 111.961_Dharamshala_3.jpg in Resources */,
+				9D5E83841C22E5CB003578FB /* 68.814_BhandupFitness_3.jpg in Resources */,
+				9D5E83661C22E5CB003578FB /* 27.597_AmruthaCastle_2.jpg in Resources */,
+				9D813B791C23E15D002E354C /* LocationsDetails.xib in Resources */,
+				9D3EE2001BE480D100853671 /* Assets.xcassets in Resources */,
+				9D5E83561C22E5CB003578FB /* 112.517_cochichos-resort.jpg in Resources */,
+				9D5E83681C22E5CB003578FB /* 31.893_Kodaikanal_1.jpg in Resources */,
+				9D5E83511C22E5CB003578FB /* 108.576_Munnar_TheEdgeResorts_2.jpg in Resources */,
+				9D5E834F1C22E5CB003578FB /* 106.468_Udaipur_AravaliSilenceLakend_3.jpg in Resources */,
+				9D5E837B1C22E5CB003578FB /* 56.501_AhmedabadClub_2.jpg in Resources */,
+				9D5E835C1C22E5CB003578FB /* 118.991_Manali_PiccadilyHolidayResort_2.jpg in Resources */,
+				9D5E83881C22E5CB003578FB /* 72.855_Dubai_1.jpg in Resources */,
+				9D958F391C1EC9F0000246AD /* CustomCellForProfile.xib in Resources */,
+				9D5E83941C22E5CB003578FB /* 99.983_cochichos-resort.jpg in Resources */,
+				9D958EFA1C1EBB9B000246AD /* EventDetails.xib in Resources */,
+				9D5E83901C22E5CB003578FB /* 95.941_Philippines_MicrotelMallofAsia_1.jpg in Resources */,
+				9DFD1FA11C8ED134007A65B2 /* GoogleService-Info.plist in Resources */,
+				9D5E836B1C22E5CB003578FB /* 37.7_Mysore_2.jpg in Resources */,
+				9D5E83581C22E5CB003578FB /* 114.834_cochichos-resort.jpg in Resources */,
+				9D5E83611C22E5CB003578FB /* 2.881_AhmedabadFitness_1.jpg in Resources */,
+				9D5E836F1C22E5CB003578FB /* 41.930_Kolad_2.jpg in Resources */,
+				9D5E837F1C22E5CB003578FB /* 6.55_MysoreRoad_2.jpg in Resources */,
+				9D5E83801C22E5CB003578FB /* 61.788_GhatkoparFitness_1.jpg in Resources */,
+				9D5E83931C22E5CB003578FB /* 98.451_Philippines_MicrotelCabanatuan_2.jpg in Resources */,
+				9D5E82E91C22CE40003578FB /* DisplayLocationImagesView.xib in Resources */,
+				9D5E83851C22E5CB003578FB /* 69.871_BangaloreFitness_2.jpg in Resources */,
+				9D5E83541C22E5CB003578FB /* 110.777_MysoreMangoSuites_3.jpg in Resources */,
+				9D5E83701C22E5CB003578FB /* 44.46_Shimla_1.jpg in Resources */,
+				9D5E837E1C22E5CB003578FB /* 59.835_Begumpet_2.jpg in Resources */,
+				9D5E837D1C22E5CB003578FB /* 58.863_ChandigarhFitness_2.jpg in Resources */,
+				9D5E835D1C22E5CB003578FB /* 119.955_Kasauli_2.jpg in Resources */,
+				9D5E838C1C22E5CB003578FB /* 91.694_cochichos-resort.jpg in Resources */,
+				9D5E838A1C22E5CB003578FB /* 75.887_IndoreFitness_2.jpg in Resources */,
+				9D5E83811C22E5CB003578FB /* 62.742_PuneFitness_1.jpg in Resources */,
+				9D5E838D1C22E5CB003578FB /* 92.159_cochichos-resort.jpg in Resources */,
+				9D5E83751C22E5CB003578FB /* 50.769_NagpurFitness_1.jpg in Resources */,
+				9D5E83821C22E5CB003578FB /* 63.675_Kurla_1.jpg in Resources */,
+				9D3EE1FE1BE480D100853671 /* Main.storyboard in Resources */,
+				9D958F181C1EC65C000246AD /* SelectLocationViewcontroller.xib in Resources */,
+				9D5E83921C22E5CB003578FB /* 97.886_Philippines_MicrotelCavite_2.jpg in Resources */,
+				9D5E83651C22E5CB003578FB /* 25.788_Medchal_2.jpg in Resources */,
+				9D5E83501C22E5CB003578FB /* 107.236_Mathura_HotelGoverdhanPalace_1.jpg in Resources */,
+				9D5E834D1C22E5CB003578FB /* 104.969_FortuneRoyalHotel_2.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		149EB713E0DA581A2C45CA2C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CF7CC7B3E845E89E4B928793 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TeamCCHHL/Pods-TeamCCHHL-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FBC10F334B6AE417047A0047 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TeamCCHHL/Pods-TeamCCHHL-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9D3EE1EC1BE480D100853671 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D958F281C1EC7E8000246AD /* SDWebImageDecoder.m in Sources */,
+				9D958F101C1EBFBC000246AD /* CountryClubModel.m in Sources */,
+				9D42800B1BE72DBC00CE7B0A /* webServiceHelper.m in Sources */,
+				9D420E5C1C0707E60094446C /* SKSTableViewCell.m in Sources */,
+				9DFDB4861C182D6A0077870C /* NSString+MD5.m in Sources */,
+				9DFDB4851C182D6A0077870C /* FTWCache.m in Sources */,
+				9D958F341C1EC963000246AD /* SDWebImageDownloaderOperation.m in Sources */,
+				9D958EF81C1EBB72000246AD /* EventDetails.m in Sources */,
+				9D6156D11C3D2A5500C19202 /* AddMemberView.m in Sources */,
+				9D1C3A701C686FB500E0EBC6 /* BookingHolidayViewcontroller.m in Sources */,
+				9D4A3E7C1BEB3A370075E7F9 /* AttendanceViewController.m in Sources */,
+				9DF9959B1BF0A8D300B8E72F /* PaySlipViewController.m in Sources */,
+				9D062E591C199907000F3E11 /* ImagesViewController.m in Sources */,
+				9D958F311C1EC846000246AD /* NSData+ImageContentType.m in Sources */,
+				9D5E82D31C22CB21003578FB /* LocatesViewController.m in Sources */,
+				9D958F2B1C1EC803000246AD /* UIImage+MultiFormat.m in Sources */,
+				9D958F2E1C1EC829000246AD /* UIImage+GIF.m in Sources */,
+				9DF53A561BE4EEB8009F29B6 /* customCell.m in Sources */,
+				9D68A8811C27D01D00BC142C /* UITextField+CustomInputViews.m in Sources */,
+				9D1C3A661C686EF300E0EBC6 /* ResortsListViewController.m in Sources */,
+				9D958F221C1EC78D000246AD /* SDImageCache.m in Sources */,
+				9D5E82EC1C22CE4E003578FB /* DisplayLocationImagesView.m in Sources */,
+				9DD59E5A1C3C002100C7E950 /* SalesLoginViewController.m in Sources */,
+				9DFB4BB01BF1C6CB00E0E59F /* Reachability.m in Sources */,
+				9D958F251C1EC7C1000246AD /* UIView+WebCacheOperation.m in Sources */,
+				9D958F371C1EC9BD000246AD /* CustomCellForProfile.m in Sources */,
+				9D890B161C661631008FD187 /* SettingsViewController.m in Sources */,
+				9D420E5D1C0707E60094446C /* SKSTableViewCellIndicator.m in Sources */,
+				9D890B131C660B22008FD187 /* HolidaysLoginViewController.m in Sources */,
+				9D958F0C1C1EBF00000246AD /* UIImageView+WebCache.m in Sources */,
+				9D3EE1FB1BE480D100853671 /* ViewController.m in Sources */,
+				9D6156CB1C3D109B00C19202 /* NewMemberViewController.m in Sources */,
+				9D958F1F1C1EC76D000246AD /* SDWebImageDownloader.m in Sources */,
+				9D565DEF1C16D452000CD7D4 /* CCHHLiveViewController.m in Sources */,
+				9D5D86A21C00784C00C6EC94 /* MainViewController.m in Sources */,
+				9D958F021C1EBD02000246AD /* EventsByCity.m in Sources */,
+				9D5E82DB1C22CBBE003578FB /* LocationsDetails.m in Sources */,
+				9D958EF41C1EBAE7000246AD /* EventsWithImageViewController.m in Sources */,
+				9D5D86A51C00785900C6EC94 /* SWRevealViewController.m in Sources */,
+				9D3EF1571C3E945500DB9D2A /* HistoryTableViewCell.m in Sources */,
+				9D5E82D61C22CB5C003578FB /* LocationsView.m in Sources */,
+				9D1C3A631C6869C600E0EBC6 /* HolidaysViewController.m in Sources */,
+				826E51521C5708DB00D98136 /* MemberDetailsViewController.m in Sources */,
+				9D4280141BE7644E00CE7B0A /* Utils.m in Sources */,
+				9D958EF51C1EBAE7000246AD /* EventsViewController.m in Sources */,
+				9D958F131C1EC5BA000246AD /* SDWebImageManager.m in Sources */,
+				9DF9D4BD1BE8AEE8002827FC /* UINavigationBar+Addition.m in Sources */,
+				9D420E5B1C0707E60094446C /* SKSTableView.m in Sources */,
+				9D958F161C1EC624000246AD /* SelectLocationViewcontroller.m in Sources */,
+				9D958F1B1C1EC6F3000246AD /* SDWebImageCompat.m in Sources */,
+				9D6156CE1C3D1B0000C19202 /* HistoryViewController.m in Sources */,
+				9D03A3311C3BA42A00BBC224 /* SalesViewController.m in Sources */,
+				9D5D869F1C00783F00C6EC94 /* SidebarViewController.m in Sources */,
+				9D4280171BE77A8900CE7B0A /* UIColor+Hexadecimal.m in Sources */,
+				9D3EE1F81BE480D100853671 /* AppDelegate.m in Sources */,
+				9D958EFD1C1EBBEE000246AD /* EventsCell.m in Sources */,
+				9D958F071C1EBE5F000246AD /* SelectedEventsDedtails.m in Sources */,
+				9D3EE1F51BE480D100853671 /* main.m in Sources */,
+				9DF9D4C21BE8B6AF002827FC /* ProfileViewController.m in Sources */,
+				9D4280111BE75A9300CE7B0A /* MBProgressHUD.m in Sources */,
+				9DFDB47F1C182BFE0077870C /* CustomTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9D3EE1FC1BE480D100853671 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D3EE1FD1BE480D100853671 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9D3EE2011BE480D100853671 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D3EE2021BE480D100853671 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9D3EE21B1BE480D100853671 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "bb38097d-d961-4b66-9bb6-1bfc1afb09fe";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9D3EE21C1BE480D100853671 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "bb38097d-d961-4b66-9bb6-1bfc1afb09fe";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9D3EE21E1BE480D100853671 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B77BE98F5F60BEFB769F489 /* Pods-TeamCCHHL.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = YES;
+				"ENABLE_NS_ASSERTIONS[arch=*]" = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Employee/TeamCCHHL.pch;
+				INFOPLIST_FILE = Employee/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[arch=*]" = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TeamCCHHL.TeamCCHHL;
+				PRODUCT_NAME = TeamCCHHL;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		9D3EE21F1BE480D100853671 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E83C10ACD481BC4474207F57 /* Pods-TeamCCHHL.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Employee/TeamCCHHL.pch;
+				INFOPLIST_FILE = Employee/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[arch=*]" = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TeamCCHHL.TeamCCHHL;
+				PRODUCT_NAME = TeamCCHHL;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9D3EE1EB1BE480D100853671 /* Build configuration list for PBXProject "TeamCCHHL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D3EE21B1BE480D100853671 /* Debug */,
+				9D3EE21C1BE480D100853671 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D3EE21D1BE480D100853671 /* Build configuration list for PBXNativeTarget "TeamCCHHL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D3EE21E1BE480D100853671 /* Debug */,
+				9D3EE21F1BE480D100853671 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9D3EE1E81BE480D100853671 /* Project object */;
+}
